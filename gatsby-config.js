@@ -6,10 +6,10 @@ module.exports = {
     title: "BackRoads",
     description:
       "Explore awesome worldwide tours & discover what makes each of them unique. Forget your daily routine & say yes to adventure",
-    author: "@johndoe",
+    author: "Noah Osuolale",
     twitterUsername: "@haon111",
     image: "/defaultBcg.jpeg",
-    siteUrl: "https://gatsby-backroad-project.netlify.com",
+    siteUrl: "https://noah-gatsby-backroads-project.netlify.app",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -32,8 +32,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://gatsby-backroad-project.netlify.com",
-        sitemap: "https://gatsby-backroad-project.netlify.com/sitemap.xml",
+        host: "https://noah-gatsby-backroads-project.netlify.app",
+        sitemap: "https://noah-gatsby-backroads-project.netlify.app/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
